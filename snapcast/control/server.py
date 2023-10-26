@@ -336,8 +336,8 @@ class Snapserver():
         """Handle group mute."""
         group = self._groups.get(data.get('id'))
         group.update_mute(data)
-        for clientID in group.clients:
-            self._clients.get(clientID).callback()
+        for client_id in group.clients:
+            self._clients.get(client_id).callback()
 
     def _on_group_name_changed(self, data):
         """Handle group name changed."""
@@ -347,8 +347,8 @@ class Snapserver():
         """Handle group stream change."""
         group = self._groups.get(data.get('id'))
         group.update_stream(data)
-        for clientID in group.clients:
-            self._clients.get(clientID).callback()
+        for client_id in group.clients:
+            self._clients.get(client_id).callback()
 
     def _on_client_connect(self, data):
         """Handle client connect."""
@@ -397,8 +397,8 @@ class Snapserver():
         for group in self._groups.values():
             if group.stream == data.get('id'):
                 group.callback()
-                for clientID in group.clients:
-                    self._clients.get(clientID).callback()
+                for client_id in group.clients:
+                    self._clients.get(client_id).callback()
 
     def _on_stream_update(self, data):
         """Handle stream update."""
@@ -408,8 +408,8 @@ class Snapserver():
         for group in self._groups.values():
             if group.stream == data.get('id'):
                 group.callback()
-                for clientID in group.clients:
-                    self._clients.get(clientID).callback()
+                for client_id in group.clients:
+                    self._clients.get(client_id).callback()
 
     def set_on_update_callback(self, func):
         """Set on update callback function."""
