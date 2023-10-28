@@ -4,10 +4,12 @@ setup(
     name='snapcast-mod',
     version='2.4.1',
     description='Control Snapcast.',
-    url='https://github.com/happyleavesaoc/python-snapcast/',
+    url='https://github.com/SantiagoSotoC/python-snapcast/',
     license='MIT',
-    author='happyleaves',
-    author_email='happyleaves.tfr@gmail.com',
+    authors = [
+      { name="happyleaves", email="happyleaves.tfr@gmail.com" },
+      { name="SantiagoSotoC", email="santiago@soto.uy" },
+    ]
     packages=['snapcast', 'snapcast.control', 'snapcast.client'],
     install_requires=[
         'construct>=2.5.2',
