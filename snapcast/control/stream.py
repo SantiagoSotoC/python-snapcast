@@ -45,7 +45,13 @@ class Snapstream():
     def properties(self):
         """Get properties."""
         return self._stream.get('properties')
-
+    
+    @property
+    def path(self):
+        """Get stream path."""
+        return self._stream.get('uri').get('path')
+    
+    @property
     def update(self, data):
         """Update stream."""
         self._stream = data
