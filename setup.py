@@ -6,10 +6,8 @@ setup(
     description='Control Snapcast.',
     url='https://github.com/SantiagoSotoC/python-snapcast/',
     license='MIT',
-    authors = [
-      { name="happyleaves", email="happyleaves.tfr@gmail.com" },
-      { name="SantiagoSotoC", email="santiago@soto.uy" },
-    ]
+    author='happyleaves',
+    author_email='happyleaves.tfr@gmail.com',
     packages=['snapcast', 'snapcast.control', 'snapcast.client'],
     install_requires=[
         'construct>=2.5.2',
