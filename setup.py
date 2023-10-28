@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name='snapcast-mod',
-    version='2.4.1',
+    version='2.4.2',
     description='Control Snapcast.',
     url='https://github.com/SantiagoSotoC/python-snapcast/',
     license='MIT',
