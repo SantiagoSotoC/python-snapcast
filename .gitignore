@@ -4,3 +4,11 @@ snapcast.egg-info*
 .coverage
 .tox
 MANIFEST
+dist
+build
+myenv
+snapcast_mod.egg-info/dependency_links.txt
+snapcast_mod.egg-info/PKG-INFO
+snapcast_mod.egg-info/requires.txt
+snapcast_mod.egg-info/top_level.txt
+snapcast_mod.egg-info/SOURCES.txt
