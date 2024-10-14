@@ -4,3 +4,4 @@ snapcast.egg-info*
 .coverage
 .tox
 MANIFEST
+.venv
