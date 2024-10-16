@@ -1,6 +1,6 @@
-[![Build Status](https://travis-ci.org/happyleavesaoc/python-snapcast.svg?branch=master)](https://travis-ci.org/happyleavesaoc/python-snapcast) [![PyPI version](https://badge.fury.io/py/snapcast.svg)](https://badge.fury.io/py/snapcast)
+[![Build Status](https://travis-ci.org/happyleavesaoc/python-snapcast.svg?branch=master)](https://travis-ci.org/happyleavesaoc/python-snapcast) [![PyPI version](https://badge.fury.io/py/snapcast-mod.svg)](https://badge.fury.io/py/snapcast-mod)
 
-# python-snapcast
+# python-snapcast-mod
 
 Control [Snapcast](https://github.com/badaix/snapcast) in Python 3. Reads client configurations, updates clients, and receives updates from other controllers.
 
@@ -8,7 +8,7 @@ Supports Snapcast `0.15.0`.
 
 ## Install
 
-`pip install snapcast`
+`pip install snapcast-mod`
 
 ## Usage
 
